@@ -1,0 +1,1 @@
+Sequence in Rust is like Python List
