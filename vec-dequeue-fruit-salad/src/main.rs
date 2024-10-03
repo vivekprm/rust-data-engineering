@@ -20,11 +20,11 @@ fn main() {
 
     // Scramble(shuffle) the fruit
     let mut rng = thread_rng();
-    let mut fruit = fruit.into_iter().collect::<Vec<&str>>();
+    let mut fruit: Vec<&str> = fruit.into_iter().collect();
     fruit.shuffle(&mut rng);
 
     // Convert it back to a VecDeque
-    let mut fruit = fruit.into_iter().collect::<VecDeque<&str>>();
+    let mut fruit: VecDeque<&str> = fruit.into_iter().collect();
 
     // Add  fruits  to the both  ends of the queue after  shuffling
     fruit.push_front("Pomegranate");
