@@ -70,3 +70,6 @@ fn main() {
     }
 }
 ```
+
+## Vec Dequeue
+Double ended queue similar to python's  Dequeue. Cool thing  about it is, it has O(1) time complexity for operations on  both ends.
