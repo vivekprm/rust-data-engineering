@@ -1,5 +1,3 @@
-# Simple Charting of Data
-```rust
 extern crate rasciigraph;
 
 use rasciigraph::{plot, Config};
@@ -27,4 +25,3 @@ fn main() {
         )
     );
 }
-```
